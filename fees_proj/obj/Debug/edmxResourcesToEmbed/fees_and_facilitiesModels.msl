@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="fees_and_facilitiesModelStoreContainer" CdmEntityContainer="fees_and_facilitiesEntities1">
+    <EntitySetMapping Name="account_information_parameter">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.account_information_parameter">
+        <MappingFragment StoreEntitySet="account_information_parameter">
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="account_information_parameter_translation">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.account_information_parameter_translation">
+        <MappingFragment StoreEntitySet="account_information_parameter_translation">
+          <ScalarProperty Name="account_info_non_trans_id" ColumnName="account_info_non_trans_id" />
+          <ScalarProperty Name="language_id" ColumnName="language_id" />
+          <ScalarProperty Name="parameter" ColumnName="parameter" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="account_parameter_values">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.account_parameter_values">
+        <MappingFragment StoreEntitySet="account_parameter_values">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="currency_id" ColumnName="currency_id" />
+          <ScalarProperty Name="parameter_id" ColumnName="parameter_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="account_parameter_values_translation">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.account_parameter_values_translation">
+        <MappingFragment StoreEntitySet="account_parameter_values_translation">
+          <ScalarProperty Name="language_id" ColumnName="language_id" />
+          <ScalarProperty Name="account_params_values_non_trans_id" ColumnName="account_params_values_non_trans_id" />
+          <ScalarProperty Name="value" ColumnName="value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bank_currency_table">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.bank_currency_table">
+        <MappingFragment StoreEntitySet="bank_currency_table">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="bank_id" ColumnName="bank_id" />
+          <ScalarProperty Name="currency_name" ColumnName="currency_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dormitories_table">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.dormitories_table">
+        <MappingFragment StoreEntitySet="dormitories_table">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="dormitory_type_id" ColumnName="dormitory_type_id" />
+          <ScalarProperty Name="room_price_currency" ColumnName="room_price_currency" />
+          <ScalarProperty Name="room_price_currency_symbol" ColumnName="room_price_currency_symbol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dormitories_table_translation">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.dormitories_table_translation">
+        <MappingFragment StoreEntitySet="dormitories_table_translation">
+          <ScalarProperty Name="language_id" ColumnName="language_id" />
+          <ScalarProperty Name="dormitories_table_non_trans_id" ColumnName="dormitories_table_non_trans_id" />
+          <ScalarProperty Name="dormitory_name" ColumnName="dormitory_name" />
+          <ScalarProperty Name="dormitory_address" ColumnName="dormitory_address" />
+          <ScalarProperty Name="gender_allocation" ColumnName="gender_allocation" />
+          <ScalarProperty Name="rooms_payment_period" ColumnName="rooms_payment_period" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dormitory_bank_account_table">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.dormitory_bank_account_table">
+        <MappingFragment StoreEntitySet="dormitory_bank_account_table">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="dormitory_id" ColumnName="dormitory_id" />
+          <ScalarProperty Name="bank_name" ColumnName="bank_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dormitory_information_table">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.dormitory_information_table">
+        <MappingFragment StoreEntitySet="dormitory_information_table">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="dormitory_type_id" ColumnName="dormitory_type_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dormitory_information_table_translation">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.dormitory_information_table_translation">
+        <MappingFragment StoreEntitySet="dormitory_information_table_translation">
+          <ScalarProperty Name="language_id" ColumnName="language_id" />
+          <ScalarProperty Name="dormitory_info_non_trans_id" ColumnName="dormitory_info_non_trans_id" />
+          <ScalarProperty Name="information" ColumnName="information" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dormitory_type">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.dormitory_type">
+        <MappingFragment StoreEntitySet="dormitory_type">
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dormitory_type_translation">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.dormitory_type_translation">
+        <MappingFragment StoreEntitySet="dormitory_type_translation">
+          <ScalarProperty Name="language_id" ColumnName="language_id" />
+          <ScalarProperty Name="dormitory_type_non_trans_id" ColumnName="dormitory_type_non_trans_id" />
+          <ScalarProperty Name="type_name" ColumnName="type_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="facility_option">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.facility_option">
+        <MappingFragment StoreEntitySet="facility_option">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="facility_id" ColumnName="facility_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="facility_option_translation">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.facility_option_translation">
+        <MappingFragment StoreEntitySet="facility_option_translation">
+          <ScalarProperty Name="facility_option_non_trans_id" ColumnName="facility_option_non_trans_id" />
+          <ScalarProperty Name="language_id" ColumnName="language_id" />
+          <ScalarProperty Name="facility_option" ColumnName="facility_option" />
+          <ScalarProperty Name="facility_option_description" ColumnName="facility_option_description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="facility_table">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.facility_table">
+        <MappingFragment StoreEntitySet="facility_table">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="facility_icon_url" ColumnName="facility_icon_url" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="facility_table_translation">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.facility_table_translation">
+        <MappingFragment StoreEntitySet="facility_table_translation">
+          <ScalarProperty Name="language_id" ColumnName="language_id" />
+          <ScalarProperty Name="facility_table_non_trans_id" ColumnName="facility_table_non_trans_id" />
+          <ScalarProperty Name="facility_title" ColumnName="facility_title" />
+          <ScalarProperty Name="facility_description" ColumnName="facility_description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="language_table">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.language_table">
+        <MappingFragment StoreEntitySet="language_table">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="language_code" ColumnName="language_code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="room_facility">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.room_facility">
+        <MappingFragment StoreEntitySet="room_facility">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="facility_id" ColumnName="facility_id" />
+          <ScalarProperty Name="room_id" ColumnName="room_id" />
+          <ScalarProperty Name="facility_option_id" ColumnName="facility_option_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="room_table">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.room_table">
+        <MappingFragment StoreEntitySet="room_table">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="dormitory_id" ColumnName="dormitory_id" />
+          <ScalarProperty Name="room_picture_url" ColumnName="room_picture_url" />
+          <ScalarProperty Name="room_price" ColumnName="room_price" />
+          <ScalarProperty Name="room_price_installment" ColumnName="room_price_installment" />
+          <ScalarProperty Name="room_area" ColumnName="room_area" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="room_table_translation">
+      <EntityTypeMapping TypeName="fees_and_facilitiesModel.room_table_translation">
+        <MappingFragment StoreEntitySet="room_table_translation">
+          <ScalarProperty Name="language_id" ColumnName="language_id" />
+          <ScalarProperty Name="room_table_non_trans_id" ColumnName="room_table_non_trans_id" />
+          <ScalarProperty Name="room_type" ColumnName="room_type" />
+          <ScalarProperty Name="room_title" ColumnName="room_title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

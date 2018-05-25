@@ -1,0 +1,12 @@
+c:\users\dc\source\repos\fees_proj\fees_proj\obj\Debug\fees_proj.csproj.CoreCompileInputs.cache
+c:\users\dc\source\repos\fees_proj\fees_proj\bin\Debug\fees_proj.exe.config
+c:\users\dc\source\repos\fees_proj\fees_proj\bin\Debug\fees_proj.exe
+c:\users\dc\source\repos\fees_proj\fees_proj\bin\Debug\fees_proj.pdb
+c:\users\dc\source\repos\fees_proj\fees_proj\bin\Debug\EntityFramework.dll
+c:\users\dc\source\repos\fees_proj\fees_proj\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\dc\source\repos\fees_proj\fees_proj\bin\Debug\EntityFramework.xml
+c:\users\dc\source\repos\fees_proj\fees_proj\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\dc\source\repos\fees_proj\fees_proj\obj\Debug\fees_proj.csprojAssemblyReference.cache
+c:\users\dc\source\repos\fees_proj\fees_proj\obj\Debug\fees_proj.csproj.CopyComplete
+c:\users\dc\source\repos\fees_proj\fees_proj\obj\Debug\fees_proj.exe
+c:\users\dc\source\repos\fees_proj\fees_proj\obj\Debug\fees_proj.pdb
